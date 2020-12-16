@@ -66,3 +66,4 @@ x--------x-------x ------x-------x-------x------
 
 - git diff main
 - git merge master -> keep the feature branch updated
+fix the conflit

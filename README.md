@@ -9,18 +9,16 @@ added some text
 
 Git Command
 
+
+
 # Genaral Command
 
-- git clone - clone a file from git remote repo to local
-
-- git status - git status of all modified file and untracked file or files which are ready to be commited
-
-- git add - add untracked file to local git repo i.e <git add.>
-
-- git commit - commit changes localy i.e <git commit -m "Added index.html" -m "to test git add and git commit">
-
-- git push - push code to code from local to remote <need SSH ke setup required to push code to git>
-git pull
+* repo -> repository
+* `clone` -> bring a repo down from the internet (remote repository like Github) to your local machine
+* `add` -> track your files and changes with Git
+* `commit` -> save your changes into Git
+* `push` -> push your changes to your remote repo on Github (or another website)
+* `pull` -> pull changes down from the remote repo to your local machine
 
 
 ls -la - show hidden file

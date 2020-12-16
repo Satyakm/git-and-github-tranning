@@ -41,9 +41,9 @@ echo "# demo-repo2" >> README.md
 
 
 ## Branching
-Hfx - hotfix
-f - feature
-x - main
+- Hfx - hotfix
+- f - feature
+- x - main
 
                     -----Hfx----
                    /           \
@@ -51,3 +51,11 @@ x - main
 x--------x-------x ------x-------x-------x------
           \                            /
             \-----f------f--------f---
+
+
+- git branch -> current branch status
+- git checkout -b feature-<feature id> -> -b to create a new branch
+- git checkout -> switch betweem branches
+- git diff <branch name> to compare the changes
+- git merge <branchname>
+

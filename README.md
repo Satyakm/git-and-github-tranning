@@ -37,7 +37,7 @@ echo "# demo-repo2" >> README.md
 ## …or push an existing repository from the command line
 - git remote add origin git@github.com:Satyakm/demo-repo2.git
 - git branch -M main
-- git push -u origin main
+- git push -u origin main 
 
 
 ## Branching
@@ -57,6 +57,13 @@ x--------x-------x ------x-------x-------x------
 - git checkout -b feature-<feature id> -> -b to create a new branch
 - git checkout -> switch betweem branches
 - git diff <branch name> to compare the changes
+- git push -u origin feature-<feature id> -> it will create the PR request
 - git merge <branchname>
+- git branch -d feature-ticketno001 to delete the branch once merge is done
 
+## what to do in case of conflit?
+- note : when we are modifing a file and not adding new file insted of git status -> git add . -> git commit we can directly commit git commit -am "message"
+
+- git diff main
+- git merge master -> keep the feature branch updated
 fix the conflit

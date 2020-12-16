@@ -60,3 +60,7 @@ x--------x-------x ------x-------x-------x------
 - git merge <branchname>
 
 fix the conflit
+
+Git Undo
+- git reset <file name> unstage the filed if changes has beeen staged
+- git reset HEAD~1 <reset if already commited the changes>

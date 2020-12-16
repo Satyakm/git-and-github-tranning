@@ -67,3 +67,13 @@ x--------x-------x ------x-------x-------x------
 - git diff main
 - git merge master -> keep the feature branch updated
 fix the conflit
+
+## Git Undo
+- git reset <file name> unstage the filed if changes has beeen staged
+- git reset HEAD~1 <reset if already commited the changes>
+
+- git log to show logs
+- git reset 57db44ec687d674b19ddf4cef64751bea0b75a8f to reset to specfic hash 
+
+## To do Head undo <Which will remove the changes made>
+git reset --hard 57db44ec687d674b19ddf4cef64751bea0b75a8f

@@ -62,4 +62,4 @@ x--------x-------x ------x-------x-------x------
 - git branch -d feature-ticketno001 to delete the branch once merge is done
 
 ## what to do in case of conflit?
-
+- note : when we are modifing a file and not adding new file insted of git status -> git add . -> git commit we can directly commit git commit -am "message"

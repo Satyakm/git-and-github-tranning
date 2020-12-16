@@ -59,3 +59,4 @@ x--------x-------x ------x-------x-------x------
 - git diff <branch name> to compare the changes
 - git merge <branchname>
 
+fix the conflit

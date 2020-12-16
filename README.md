@@ -63,3 +63,6 @@ x--------x-------x ------x-------x-------x------
 
 ## what to do in case of conflit?
 - note : when we are modifing a file and not adding new file insted of git status -> git add . -> git commit we can directly commit git commit -am "message"
+
+- git diff main
+- git merge master -> keep the feature branch updated

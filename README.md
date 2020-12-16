@@ -58,3 +58,4 @@ x--------x-------x ------x-------x-------x------
 - git checkout -> switch betweem branches
 - git diff <branch name> to compare the changes
 - git merge <branchname>
+

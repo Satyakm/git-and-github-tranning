@@ -56,3 +56,5 @@ x--------x-------x ------x-------x-------x------
 - git branch -> current branch status
 - git checkout -b feature-<feature id> -> -b to create a new branch
 - git checkout -> switch betweem branches
+- git diff <branch name> to compare the changes
+- git merge <branchname>
